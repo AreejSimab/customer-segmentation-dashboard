@@ -1,0 +1,7 @@
+# Raw dataset can be added to source/ if you want it in the repo
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
