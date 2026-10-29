@@ -11,7 +11,7 @@
 
 <br/><br/>
 
-<img src="images/dashboard-preview.png" width="100%" alt="Customer Segmentation and Behavioral Trends dashboard built in Power BI"/>
+<img src="images/dashboard.png" width="100%" alt="Customer Segmentation and Behavioral Trends dashboard built in Power BI"/>
 
 </div>
 
@@ -111,6 +111,16 @@ The notebook exports three CSV files to the [`csv/`](csv) folder, which are load
 
 ## 🖥️ Dashboard Features
 
+<div align="center">
+<a href="images/dashboard.png">
+  <img src="images/dashboard.png" width="100%" alt="Power BI dashboard showing KPI cards, segment charts, monthly trends, geographic map, cohort retention heatmap and RFM scatter plot"/>
+</a>
+<br/>
+<sub>Click the image to open it full size</sub>
+</div>
+
+<br/>
+
 | Visual | What it shows |
 |---|---|
 | **KPI cards** | Total sales, total orders, unique customers, average order value |
@@ -122,6 +132,37 @@ The notebook exports three CSV files to the [`csv/`](csv) folder, which are load
 | **Monthly Revenue & Order Volume** | Revenue bars with order count line |
 | **RFM Customer-Value Scatter Plot** | Recency against monetary value, coloured by segment |
 | **Slicers** | Filter everything by Country, Year/Month and Segment |
+
+---
+
+## 📈 RFM & Cohort Analysis Charts
+
+### RFM segmentation
+
+Customers are scored on Recency, Frequency and Monetary value, then grouped into six segments. The first chart shows how many customers fall in each segment, and the second plots recency against monetary value for every customer, coloured by segment.
+
+<div align="center">
+
+
+<img src="images/RFM.png" width="85%" alt="Scatter plot of customer recency against monetary value, coloured by RFM segment"/>
+
+</div>
+
+- **Hibernating Customers** is the largest segment (1,072 customers), followed by Potential Customers (1,045) and Champions (941).
+- Customers with low recency (bought recently) and high monetary value are the Champions; those with high recency (gone quiet) cluster at the right of the scatter plot.
+
+### Cohort retention
+
+Customers are grouped by the month of their first purchase, and the heatmap shows the percentage of each cohort that came back in the months that followed.
+
+<div align="center">
+
+<img src="images/cohort_analysis.png" width="100%" alt="Heatmap of customer retention percentage by first-purchase month and months since first purchase"/>
+
+</div>
+
+- Read each row left to right: month 1 is always 100%, and later columns show the share of that cohort who purchased again.
+- The December 2010 cohort retains best, at 36.6% in its second month; most 2011 cohorts return at around 15–24%.
 
 ---
 
