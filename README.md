@@ -213,7 +213,9 @@ customer-segmentation-dashboard/
 │   ├── customer_cohort_retention.csv
 │   └── README.md                 # Describes each exported file
 ├── images/
-│   └── dashboard-preview.png     # Screenshot of the Power BI dashboard
+│   ├── dashboard.png
+│   ├── RFM.png
+│   └── cohert_analysis.png
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
