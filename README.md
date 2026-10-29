@@ -157,7 +157,7 @@ Customers are grouped by the month of their first purchase, and the heatmap show
 
 <div align="center">
 
-<img src="images/cohort_analysis.png" width="100%" alt="Heatmap of customer retention percentage by first-purchase month and months since first purchase"/>
+<img src="images/cohert_analysis.png" width="100%" alt="Heatmap of customer retention percentage by first-purchase month and months since first purchase"/>
 
 </div>
 
